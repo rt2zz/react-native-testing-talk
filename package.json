@@ -1,0 +1,37 @@
+{
+  "name": "rntesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "react-native-mock/mock.js",
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ],
+    "ignore": false
+  },
+  "keywords": [],
+  "author": "rt2zz <zack@root-two.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.13.0",
+    "babel-preset-react-native": "^1.5.3",
+    "ben": "0.0.0",
+    "chalk": "^1.1.1",
+    "enzyme": "^2.2.0",
+    "react-dom": "^0.14.7"
+  },
+  "dependencies": {
+    "react-native": "^0.22.2",
+    "react-native-mock": "0.0.7"
+  }
+}
